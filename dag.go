@@ -1,5 +1,6 @@
 package merkledag
 
+//first
 import "hash"
 
 func Add(store KVStore, node Node, h hash.Hash) ([]byte, error) {
